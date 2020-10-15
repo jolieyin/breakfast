@@ -15,10 +15,11 @@ section {
 }
 
 section > h1 {
-    margin: 20px 0 10px 0;
+    margin: 20px 10px 10px 10px;
     color: #fcf483;
     font-size: 40px;
     font-weight: bolder;
+    text-align: center;
 }
 
 section > h2 {
