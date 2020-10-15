@@ -1,0 +1,121 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff5900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section > h1 {
+    margin: 20px 0 10px 0;
+    color: #fcf483;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section > h2 {
+    color: #fcde83;
+}
+
+#manager {
+    margin: 15px 0 10px 0;
+    color: #873217;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#ffac80;
+    box-shadow: 0 0 20px #fff;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5900;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    border: 5px solid #ff8f52;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border: 5px solid #ff8f52;
+    border-radius: 10px;
+    background-color:#ffe1d1;
+    color: #ff5900;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease background-color;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ffe194;
+}
+
+#status {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#status.success {
+    background-color: #97fc58;
+    color: #006b17;
+    animation: status 10s ease forwards;
+}
+
+#status.error {
+    background-color: #d19093;
+    color: #8c0108;
+    animation: status 10s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
