@@ -85,6 +85,7 @@ button:hover {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 50px;
     padding: 5px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -95,13 +96,13 @@ button:hover {
 #status.success {
     background-color: #97fc58;
     color: #006b17;
-    animation: status 10s ease forwards;
+    animation: status 20s ease forwards;
 }
 
 #status.error {
     background-color: #d19093;
     color: #8c0108;
-    animation: status 10s ease forwards;
+    animation: status 20s ease forwards;
 }
 
 @keyframes status {
