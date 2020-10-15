@@ -7,23 +7,37 @@
 section {
     width: 100%;
     margin: 0 auto;
-    background-color: #ff5900;
+    /* background-color: #ff5900; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+section:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(xz.jpg);
+    background-size: contain;
+    opacity: 0.5;
 }
 
 section > h1 {
     margin: 20px 10px 10px 10px;
-    color: #fcf483;
+    color: #ff5900;
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
 }
 
 section > h2 {
-    color: #fcde83;
+    color: #ffac80;
 }
 
 #manager {
@@ -44,6 +58,7 @@ section > h2 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ff5900;
+    opacity: 0.8;
 }
 
 .form-group {
@@ -96,13 +111,13 @@ button:hover {
 #status.success {
     background-color: #97fc58;
     color: #006b17;
-    animation: status 20s ease forwards;
+    animation: status 30s ease forwards;
 }
 
 #status.error {
     background-color: #d19093;
     color: #8c0108;
-    animation: status 20s ease forwards;
+    animation: status 30s ease forwards;
 }
 
 @keyframes status {
