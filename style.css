@@ -36,14 +36,22 @@ section > h1 {
     text-align: center;
 }
 
-section > h2 {
-    color: #ffac80;
-}
-
 #manager {
     margin: 15px 0 10px 0;
     color: #873217;
     font-weight: bold;
+}
+
+.cover {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.cv {
+    width: 90%;
+    object-fit: contain;
 }
 
 .container {
@@ -58,12 +66,16 @@ section > h2 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ff5900;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .form-group {
     width: 100%;
     margin-bottom: 20px;
+}
+
+.form-group a {
+    color: #873217;
 }
 
 .form-group input {
