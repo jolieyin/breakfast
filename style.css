@@ -51,6 +51,7 @@ section > h1 {
 
 .cv {
     width: 90%;
+    max-width: 500px;
     object-fit: contain;
 }
 
